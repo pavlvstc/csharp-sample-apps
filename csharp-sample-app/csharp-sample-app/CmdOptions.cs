@@ -10,10 +10,10 @@ namespace csharp_sample_app
 {
     class CmdOptions
     {
-        [Option('i', "input", Required = true, HelpText = "Input stream to be processed.")]
+        [Option('i', "input", Required = true, HelpText = "Input stream to be processed. Set the input to \"camera\" if you want to use the live camera stream.")]
         public string Input { get; set; }
 
-        [Option('d', "data", Required = true, HelpText = "Data DIrectory.")]
+        [Option('d', "data", Required = true, HelpText = "Data Directory.")]
         public string DataFolder { get; set; }
 
         [Option('l', "license", Required = true, HelpText = "license file path.")]
