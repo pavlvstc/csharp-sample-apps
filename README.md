@@ -12,9 +12,9 @@ It runs on Windows 7.0, 8.0, 8.1 and 10
 
     By default, the Windows SDK is installed to the following location: ```C:\Program Files\Affectiva\Affdex SDK```
 
-    The sample app requires you to point to the data directory which is located at : ```C:\Program Files\Affectiva\Affdex SDK\data```. You will also need to specify the location of the 
+    The sample app requires you to point to the data directory which is located at : ```C:\Program Files\Affectiva\Affdex SDK\data```. You will also need to specify the location of the license file for the Affdex SDK.
 
-    license file for the Affdex SDK.
+    Here is the help text to get started:
 
 ```
 
