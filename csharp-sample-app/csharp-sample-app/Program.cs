@@ -81,7 +81,6 @@ namespace csharp_sample_app
                 {
                     ProcessVideo videoForm = new ProcessVideo(detector);
                     detector.setClassifierPath(options.DataFolder);
-                    detector.setLicensePath(options.LicenseFile);
                     detector.setDetectAllEmotions(true);
                     detector.setDetectAllExpressions(true);
                     detector.setDetectAllEmojis(true);

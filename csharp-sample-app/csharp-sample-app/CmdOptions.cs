@@ -16,9 +16,6 @@ namespace csharp_sample_app
         [Option('d', "data", Required = true, HelpText = "Data Directory.")]
         public string DataFolder { get; set; }
 
-        [Option('l', "license", Required = true, HelpText = "license file path.")]
-        public string LicenseFile { get; set; }
-
         [Option('f', "numFaces", Required = false, DefaultValue = 1, HelpText = "Set Max Number of faces.")]
         public int numFaces { get; set; }
 
