@@ -1,18 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-sample-app", "csharp-sample-app\csharp-sample-app.csproj", "{95270D76-4522-4D79-A042-851FE7A08653}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-sample-app", "csharp-sample-app.csproj", "{95270D76-4522-4D79-A042-851FE7A08653}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x64 = Debug|x64
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{95270D76-4522-4D79-A042-851FE7A08653}.Debug|x64.ActiveCfg = Release|x64
-		{95270D76-4522-4D79-A042-851FE7A08653}.Debug|x64.Build.0 = Release|x64
 		{95270D76-4522-4D79-A042-851FE7A08653}.Release|x64.ActiveCfg = Release|x64
 		{95270D76-4522-4D79-A042-851FE7A08653}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
