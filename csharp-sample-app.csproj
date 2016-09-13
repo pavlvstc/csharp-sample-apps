@@ -35,8 +35,8 @@
     <Reference Include="Affdex">
       <HintPath>C:\Program Files\Affectiva\Affdex SDK\bin\release\Affdex.dll</HintPath>
     </Reference>
-    <Reference Include="CommandLineParser 1.9.71">
-      <HintPath>..\packages\CommandLineParser.1.9.71\lib\net45\CommandLine.dll</HintPath>
+    <Reference Include="CommandLine, Version=1.9.71.2, Culture=neutral, PublicKeyToken=de6f01bd326f8c32, processorArchitecture=MSIL">
+      <HintPath>packages\CommandLineParser.1.9.71\lib\net45\CommandLine.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
