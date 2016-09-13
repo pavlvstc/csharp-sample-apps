@@ -31,9 +31,8 @@
     <StartupObject>csharp_sample_app.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Affdex, Version=3.1.0.368, Culture=neutral, processorArchitecture=AMD64">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files\Affectiva\Affdex SDK\bin\release\Affdex.dll</HintPath>
+    <Reference Include="Affdex">
+      <HintPath>C:\Program Files\Affectiva\Affdex SDK\bin\release\Affdex.dll</HintPath>
     </Reference>
     <Reference Include="CommandLine, Version=1.9.71.2, Culture=neutral, PublicKeyToken=de6f01bd326f8c32, processorArchitecture=MSIL">
       <HintPath>..\packages\CommandLineParser.1.9.71\lib\net45\CommandLine.dll</HintPath>
@@ -66,7 +65,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\..\..\..\..\..\..\Program Files\Affectiva\Affdex SDK\bin\release\affdex-native.dll">
+    <Content Include="C:\Program Files\Affectiva\Affdex SDK\bin\release\affdex-native.dll">
       <Link>affdex-native.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
